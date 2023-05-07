@@ -9,7 +9,102 @@
   <title>Auth Example</title>
 </head>
 <body>
-  <nav id="main-nav"></nav>
+  
+  <nav class="navbar">
+    <h1 class="logo"><span>Lo</span> Go</h1>
+    <ul class="nav-links">
+      <li>Quizzes</li>
+      <li>About Us</li>
+      <li>Result</li>
+      <li>Log Out</li>
+    </ul>
+  </nav>
+<br>  
+      <form id="quiz-form">  
+        <h1>Which Mahaba staff member are you?</h1>
+
+        <div id="question-1" class="question">
+          <h2>Question 1</h2>
+        <h3>Which of these are your go to karaoke song?</h3>
+        <label><input type="radio" name="q1" value="ben">a.How deep is your love PJ Morton (version)</label><br>
+        <label><input type="radio" name="q1" value="motun">b. Forget You by Ceelo Green</label><br>
+        <label><input type="radio" name="q1" value="carmen">c. Baby by Justin Bieber</label><br>
+        <button type="submit">Next</button>
+        </div>
+      
+        <div id="question-2" class="question" style="display:none;">
+          <h2>Question 2</h2>
+        <h3>Which of these are your favorite ice cream flavor??</h3>
+        <label><input type="radio" name="q2" value="ben">a. Ben & Jerry's Mint Oreo</label><br>
+        <label><input type="radio" name="q2" value="motun">b. Coffee/Cookie Crunch</label><br>
+        <label><input type="radio" name="q2" value="carmen">c.Vanilla</label><br>
+        <button type="submit">Next</button>
+        </div>
+        
+        <div id="question-3" class="question" style="display:none;">
+          <h2>Question 3</h2>
+        <h3>If you could have dinner with any of these historical figures, who would it be?</h3>
+        <label><input type="radio" name="q3" value="ben">a. Obama</label><br>
+        <label><input type="radio" name="q3" value="motun">b. Toni Morrison</label><br>
+        <label><input type="radio" name="q3" value="carmen">c. Frida Kahlo</label><br>
+        <button type="submit">Next</button>
+        </div>
+        
+        <div id="question-4" class="question" style="display:none;">
+          <h2>Question 4</h2>
+        <h3> Out of these places, where would you choose to live?</h3>
+        <label><input type="radio" name="q4" value="ben">a. Berkeley,CA</label><br>
+        <label><input type="radio" name="q4" value="motun">b. Portugal </label><br>
+        <label><input type="radio" name="q4" value="carmen">c.Mexico</label><br>
+        <button type="submit">Next</button>
+        </div>
+        
+        <div id="question-5" class="question" style="display:none;">
+          <h2>Question 5</h2>
+        <h3>Which of these is your biggest pet peeve?</h3>
+        <label><input type="radio" name="q5" value="ben">a. When two people are talking about something and you ask them what they are talking about and they ignore you and keep talking</label><br>
+        <label><input type="radio" name="q5" value="motun">b.People standing near doors, entrances or the middle of places other people have to walk</label><br>
+        <label><input type="radio" name="q5" value="carmen">c.Ads on Youtube </label><br>
+        <button type="submit">Next</button>
+        </div>
+        <div id="question-6" class="question" style="display:none;">
+          <h2>Question 6</h2>
+        <h3>Out of these,Which would choose to do on a sunny day?</h3>
+        <label><input type="radio" name="q6" value="ben">a. Being outside playing tennis, soccer, or skiing</label><br>
+        <label><input type="radio" name="q6" value="motun">b.Walking around the city or roller skating </label><br>
+        <label><input type="radio" name="q6" value="carmen">c.Walking</label><br>
+        <button type="submit">Next</button>
+        </div>
+
+        <div id="question-7" class="question" style="display:none;">  <h2>Question 7</h2>
+        <h3>If you could have any of these superpower which will you pick? </h3>
+        <label><input type="radio" name="q7" value="ben">a.Teleportation </label><br>
+        <label><input type="radio" name="q7" value="motun">b.Shapeshifting or absorbing other people's powers </label><br>
+        <label><input type="radio" name="q7" value="carmen">c.To speak every language in the world </label><br>
+        <button type="submit">Next</button>
+      </div>
+        <div id="question-8" class="question" style="display:none;">
+          <h2>Question 8</h2>
+        <h3>If you could only eat one of these food for the rest of your life,Which will it be?</h3>
+        <label><input type="radio" name="q8" value="ben">a.Burritos</label><br>
+        <label><input type="radio" name="q8" value="motun">b.Jollof Rice </label><br>
+        <label><input type="radio" name="q8" value="carmen">c.Thai fried rice </label><br>
+        <button type="submit">Next</button>
+      </div>
+        
+        <div id="question-9" class="question" style="display:none;">
+          <h2>Question 9</h2>
+        <h3> If you could be any of these fictional character,Which would you be</h3>
+        <label><input type="radio" name="q9" value="ben">a.Aang from Avatar the Last Airbender</label><br>
+        <label><input type="radio" name="q9" value="motun">b.Jeanine from Abbot Elementary </label><br>
+        <label><input type="radio" name="q9" value="carmen">c.Katara from The Last Airbender </label><br>
+         <button><input type="submit" value="Submit"></button>
+        </div> 
+       
+  </form>
+   <div id="result"></div>
+
+  <!-- <nav id="main-nav"></nav>
   <main>
     <h1>Auth Example</h1>
     <p>If you're logged in, you can see the secret message below:</p>
@@ -17,6 +112,6 @@
       <h2>THE SECRET</h2>
       <p id="secret-message">???</p>
     </section>
-  </main>
+  </main> -->
 </body>
 </html>

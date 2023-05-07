@@ -8,10 +8,55 @@
   <script type="module" src="./scripts/create.js"></script>
   <title>Sign Up</title>
 </head>
-<body>
-  <nav id="main-nav"></nav>
+<body >
+  <!-- <nav id="main-nav"></nav> -->
   <main>
-    <h1 id="sign-up">Sign Up Today!</h1>
+    <section>
+      <div class="container" id="container">
+          <div class="form-container sign-up-container">
+              <form id="'create-form" action="#">
+                  <h1>Sign Up</h1>
+                  <label for="username">
+                    <input type="text"  placeholder = "Username" name="username" id="username" autocomplete="username">
+                  </label>
+                  <label>
+                    <input type="password" placeholder = "Password" name="password" id="password" autocomplete="password">
+                  </label>
+                  <button id="subutton" style="margin-top: 9px"  type="submit">Sign Up</button>
+              </form>
+          </div>
+          <div class="form-container sign-in-container">
+              <form id="create-form" action="#">
+                  <h1>Sign in</h1>
+                  <label  for="username"> 
+                    <input type="text"  placeholder = "Username" name="username" id="username" autocomplete="username">
+                  </label>
+                  <label for="password"> 
+                    <input type="password" placeholder = "Password"name="password" id="password" autocomplete="password">
+                  </label>
+                  <a href="#">Forgot your password?</a>
+                  <button id="sibutton" type="submit">Sign In</button>
+              </form>
+          </div>
+          <div class="overlay-container">
+              <div class="overlay">
+                  <div class="overlay-panel overlay-left">
+                      <h1> Welcome Back</h1>
+                      <p>Sign in here if you already have an account </p>
+                      <img src="https://s3-alpha-sig.figma.com/img/a0db/2673/ea86d90f4c6e757403a655e0af1d212b?Expires=1683504000&Signature=f096llSO52N6dV8FunoYX10EoM4r7EIkeI6k6u79ofyOXOLcPWKDMUgfzpczvC6~bHPU7rKV1Xij9K-Q~TIn9kvb2gRid5YcV9MkK8PL7xzmoWFGtKlNftBnoMaeoPnwBvBGI-0FQDuEwv8-vlcotHgiwRKo6H3-OFhv38xDD0eZUBPjiPfwK~EZ6VTsgb9b0bKEf4Qxac~picflHWaBuXQ2-SaZUdtPDisqFbWmt4PoGlgW73evjLqVtRdx6Dg97DCFPWHEybe5NNDJpk85RdSLIy27wJh2pFs2py8WJKrWKUbWTWKam8eErw1Ml-iF97llWqQQw6K5G2Az5Db4lQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"  height="200" alt="">
+                      <button class="ghost mt-5" id="signIn">Sign In</button>
+                  </div>
+                  <div class="overlay-panel overlay-right">
+                      <h1>Quiz Nerdz</h1>
+                      <p> Looking for a way to unwind and have some fun? Sign up now for our entertaining quizzes and enjoy a break from your day!</p>
+                      <img src="https://www.pngall.com/wp-content/uploads/9/Journalist-People-PNG-High-Quality-Image.png" width = "300" alt="">
+                      <button class="ghost" id="signUp">Sign Up</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- <h1 id="sign-up">Sign Up Today!</h1>
     <form id="create-form" aria-describedby="sign-up">
       <label for="username">Username</label>
       <input type="text" name="username" id="username" autocomplete="username">
@@ -19,7 +64,7 @@
       <input type="password" name="password" id="password" autocomplete="password">
 
       <button type="submit">Create User</button>
-    </form>
+    </form> -->
   </main>
 </body>
 </html>
